@@ -123,7 +123,7 @@ const Btn = styled.a`
   }
 `
 
-function WhyChoiceCard({ id, cover, title, text }) {
+function WhyChoiceCard({ id, cover, title, text, icon }) {
   return (
     <React.Fragment>
       <Container key={id} className="col-4">
@@ -131,8 +131,12 @@ function WhyChoiceCard({ id, cover, title, text }) {
           <CoverContainer>
             <img src={cover} alt={`Cover - ${id}`} />
           </CoverContainer>
-
-          <Title>{title} </Title>
+          <div className='position-absolute mt-4 top-50 translate-middle-y w-100'>
+            <div className='mx-auto w-25'>
+              <img src={icon} alt="Icon of service" />
+            </div>
+          </div>
+          <Title className='mt-5'>{title} </Title>
 
           <Paragraph>{text}</Paragraph>
 

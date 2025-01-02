@@ -73,12 +73,13 @@ function WhyChoice() {
 
           <div>
             <div className="row">
-              {whyChoiceElements.map(({ id, cover, title, text }) => (
+              {whyChoiceElements.map(({ id, cover, title, text, icon }) => (
                 <WhyChoiceCard
                   id={id}
                   cover={cover}
                   title={title}
                   text={text}
+                  icon={icon}
                 />
               ))}
             </div>
