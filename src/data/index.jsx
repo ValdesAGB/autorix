@@ -64,6 +64,7 @@ export const whyChoiceElements = [
     cover:
       'https://html.designingmedia.com/autorix/assets/images/whychooseus-img1.png',
     title: 'Professional Standard',
+    icon: 'https://html.designingmedia.com/autorix/assets/images/services-circle-icon1.png',
     text: 'Quis autem velaum iure reare aenderit rui in ea roluptate velit esse ruam moles nulla',
   },
 
@@ -72,6 +73,7 @@ export const whyChoiceElements = [
     cover:
       'https://html.designingmedia.com/autorix/assets/images/whychooseus-img2.png',
     title: 'Best Materials',
+    icon: 'https://html.designingmedia.com/autorix/assets/images/services-circle-icon1.png',
     text: 'Quis autem velaum iure reare aenderit rui in ea roluptate velit esse ruam moles nulla',
   },
 
@@ -80,6 +82,7 @@ export const whyChoiceElements = [
     cover:
       'https://html.designingmedia.com/autorix/assets/images/whychooseus-img3.png',
     title: 'Long term warranty',
+    icon: 'https://html.designingmedia.com/autorix/assets/images/services-circle-icon1.png',
     text: 'Suis autem velaum iure reare aenderit rui in ea roluptate velit esse ruam moles nulla',
   },
 ]
